@@ -3,7 +3,7 @@
 $nome = $_GET["a"];
 
 // 
-$ip = $_SERVER["REQUEST_TIME"];
+$ip = $_SERVER["REMOTE_ADDR"];
 echo $ip;
 
 
