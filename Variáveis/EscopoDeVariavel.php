@@ -3,7 +3,7 @@
 $nome = "Glaucio";
 
 function teste() {
-    global $nome;
+   global $nome;
     echo $nome;
 }
 
