@@ -24,6 +24,4 @@ class DelRey extends Automovel {
 $carro = new DelRey();
 $carro->acelerar(100);
 $carro -> empurrar();
-
-
 ?>
