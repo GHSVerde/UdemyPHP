@@ -1,4 +1,5 @@
 <?php
+//Função para incluir classes (Não sendo __autoload)
 function incluirClasses($nomeClasse) {
     if (file_exists($nomeClasse.".php") === true) {
         require_once("$nomeClasse.php");
