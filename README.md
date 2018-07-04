@@ -13,7 +13,7 @@ Links em ordem das pastas do estudo
   - [For](Decisao-Loop/For)
   - [Foreach](Decisao-Loop/Foreach)
   - [While](Decisao-Loop/While)
-- [Arrays](Arrays)
+- [Arrays e JSON](Arrays)
 - [Sessão](Session)
 - [Funções](Funcoes)
 - [Data e Hora](Data)
