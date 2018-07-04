@@ -21,3 +21,4 @@ Links em ordem das pastas do estudo
   - [Classes](POO/Classes)
   - [Namespaces](POO/Namespaces)
 - [MySQLi](MySQLi)
+- [PDO](PDO)
