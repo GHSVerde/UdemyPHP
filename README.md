@@ -20,4 +20,4 @@ Links em ordem das pastas do estudo
 - [Programação Orientada a Objetos](POO)
   - [Classes](POO/Classes)
   - [Namespaces](POO/Namespaces)
--[MySQLi](MySQLi)
+- [MySQLi](MySQLi)
