@@ -18,7 +18,7 @@ Links em ordem das pastas do estudo
 - [Funções](Funcoes)
 - [Data e Hora](Data)
 - [Programação Orientada a Objetos](POO)
-  - [Classes](POO/Classes)
+  - [Autoload](POO/Autoload)
   - [Namespaces](POO/Namespaces)
 - [MySQLi](MySQLi)
 - [PDO](PDO)
