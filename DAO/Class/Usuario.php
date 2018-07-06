@@ -27,16 +27,22 @@ class Usuario {
         $sql = new Sql();
         $results = $sql->select("SELECT * FROM tb_usuarios WHERE idusuario = :ID", array(":ID" => $id));
         
+        //Verifica se o array retornado tem subarrays (resultados)
         if (isset($results[0])) {
+            //Se houver define os resultados chamando os setters
             $row = $results[0];
             $this->setIdusuario($row['idusuario']);
             $this->setDeslogin($row['deslogin']);
             $this->setDessenha($row['dessenha']);
-            $this->setDtcadastro(new DateTime($row['dtcadastro']));
+            $this->setDtcadastro(new DateTime($row['dtcadastro']));//Converte a String retornada para DateTime
         }
     }
     
-    //Exibição do Usuário
+    /* Exibição do Usuário
+    Faz isso através da conversão dos getters para un json.
+    Também formata a data através do método da Classe DateTime instanciada no 
+    $this->loadById();
+    */
     public function __toString() {
         return json_encode(array(
             "idusuario"  => $this->getIdusuario(),
