@@ -38,17 +38,65 @@ class Usuario {
         }
     }
     
+    //Pegando Lista de Usuários
+    public static function getLista() {
+        $sql = new Sql();
+        return $sql->select("SELECT * FROM tb_usuarios ORDER BY idusuario");
+    }
+    
+    //Pega o nome Usuário
+    public static function search($login) {
+        $sql = new Sql();
+        return $sql->select("SELECT * FROM tb_usuarios WHERE deslogin LIKE :USUARIO ORDER BY deslogin", array(
+            ":USUARIO" => "%".$login."%"
+        ));
+    }
+    
+    //Loga os usuários
+    public function login($login, $senha) {
+        $sql = new Sql();
+        $results = $sql->select("SELECT * FROM tb_usuarios WHERE deslogin = :LOGIN AND dessenha = :SENHA", array(":LOGIN" => $login, ":SENHA" => $senha));
+        
+        //Verifica se o array retornado tem subarrays (resultados)
+        if (isset($results[0])) {
+            //Se houver define os resultados chamando os setters
+            $row = $results[0];
+            $this->setIdusuario($row['idusuario']);
+            $this->setDeslogin($row['deslogin']);
+            $this->setDessenha($row['dessenha']);
+            $this->setDtcadastro(new DateTime($row['dtcadastro']));//Converte a String retornada para DateTime
+        } else {
+            throw new Exception ("Login e/ou Senha Inválidos");
+        }
+    }
+    
+    //Cadatro um novo usuário
+    public static function cadastrar($login, $senha){
+        $sql = new Sql();
+        
+        $sql->query("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES(:LOGIN, :SENHA)",array(
+            ":LOGIN" => $login,
+            ":SENHA" => $senha
+        ));
+    }
+    
     /* Exibição do Usuário
     Faz isso através da conversão dos getters para un json.
     Também formata a data através do método da Classe DateTime instanciada no 
     $this->loadById();
     */
     public function __toString() {
-        return json_encode(array(
+        if(isset($this->idusuario)){
+            return json_encode(array(
             "idusuario"  => $this->getIdusuario(),
             "deslogin"   => $this->getDeslogin(),
             "dessenha"   => $this->getDessenha(),
             "dtcadastro" => $this->getDtcadastro()->format("d/m/y")
         ));
+        } else{
+            return "<h1>Objeto não iniciado</h1>";
+        }
+        
+        
     }
 }
