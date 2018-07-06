@@ -11,7 +11,7 @@ class Sql extends PDO{
     //Chama vários setParam para cada um do array
     public function setParams($statements, $parameter = array()) {
         foreach($parameter as $key => $value) {
-            $this->setParam($key, $value);
+            $this->setParam($statements, $key, $value);
         }
     }
     
