@@ -22,62 +22,12 @@ class Usuario {
     public function getDtcadastro() {return $this->dtcadastro;}
     public function setDtcadastro($value) {$this->dtcadastro = $value;}
     
-    //Carregamento pelo ID
-    public function loadById($id) {
-        $sql = new Sql();
-        $results = $sql->select("SELECT * FROM tb_usuarios WHERE idusuario = :ID", array(":ID" => $id));
-        
-        //Verifica se o array retornado tem subarrays (resultados)
-        if (isset($results[0])) {
-            //Se houver define os resultados chamando os setters
-            $row = $results[0];
-            $this->setIdusuario($row['idusuario']);
-            $this->setDeslogin($row['deslogin']);
-            $this->setDessenha($row['dessenha']);
-            $this->setDtcadastro(new DateTime($row['dtcadastro']));//Converte a String retornada para DateTime
-        }
-    }
-    
-    //Pegando Lista de Usuários
-    public static function getLista() {
-        $sql = new Sql();
-        return $sql->select("SELECT * FROM tb_usuarios ORDER BY idusuario");
-    }
-    
-    //Pega o nome Usuário
-    public static function search($login) {
-        $sql = new Sql();
-        return $sql->select("SELECT * FROM tb_usuarios WHERE deslogin LIKE :USUARIO ORDER BY deslogin", array(
-            ":USUARIO" => "%".$login."%"
-        ));
-    }
-    
-    //Loga os usuários
-    public function login($login, $senha) {
-        $sql = new Sql();
-        $results = $sql->select("SELECT * FROM tb_usuarios WHERE deslogin = :LOGIN AND dessenha = :SENHA", array(":LOGIN" => $login, ":SENHA" => $senha));
-        
-        //Verifica se o array retornado tem subarrays (resultados)
-        if (isset($results[0])) {
-            //Se houver define os resultados chamando os setters
-            $row = $results[0];
-            $this->setIdusuario($row['idusuario']);
-            $this->setDeslogin($row['deslogin']);
-            $this->setDessenha($row['dessenha']);
-            $this->setDtcadastro(new DateTime($row['dtcadastro']));//Converte a String retornada para DateTime
-        } else {
-            throw new Exception ("Login e/ou Senha Inválidos");
-        }
-    }
-    
-    //Cadatro um novo usuário
-    public static function cadastrar($login, $senha){
-        $sql = new Sql();
-        
-        $sql->query("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES(:LOGIN, :SENHA)",array(
-            ":LOGIN" => $login,
-            ":SENHA" => $senha
-        ));
+    //Seta os dados do Objeto
+    public function setData($data) {
+        $this->setIdusuario($data['idusuario']);
+        $this->setDeslogin($data['deslogin']);
+        $this->setDessenha($data['dessenha']);
+        $this->setDtcadastro(new DateTime($data['dtcadastro']));//Converte a String retornada para DateTime
     }
     
     /* Exibição do Usuário
@@ -95,8 +45,67 @@ class Usuario {
         ));
         } else{
             return "<h1>Objeto não iniciado</h1>";
+        } 
+    }
+    
+    public function __construct($usuario = "", $senha = "") {
+        $this->setDeslogin($usuario);
+        $this->setDessenha($senha);
+    }
+    
+    //Carregamento pelo ID
+    public function loadById($id) {
+        $sql = new Sql();
+        $results = $sql->select("SELECT * FROM tb_usuarios WHERE idusuario = :ID", array(":ID" => $id));
+        
+        //Verifica se o array retornado tem subarrays (resultados)
+        if (isset($results[0])) {
+            //Se houver define os resultados chamando os setters
+            $this->setData($results[0]);
+        }
+    }
+    
+    //Loga os usuários
+    public function login($login, $senha) {
+        $sql = new Sql();
+        $results = $sql->select("SELECT * FROM tb_usuarios WHERE deslogin = :LOGIN AND dessenha = :SENHA", array(":LOGIN" => $login, ":SENHA" => $senha));
+        
+        //Verifica se o array retornado tem subarrays (resultados)
+        if (isset($results[0])) {
+            //Se houver define os resultados chamando os setters
+            $this->setData($results[0]);
+        } else {
+            throw new Exception ("Login e/ou Senha Inválidos");
+        }
+    }
+    
+    //Pegando Lista de Usuários
+    public static function getLista() {
+        $sql = new Sql();
+        return $sql->select("SELECT * FROM tb_usuarios ORDER BY idusuario");
+    }
+    
+    //Pega o nome Usuário
+    public static function search($login) {
+        $sql = new Sql();
+        return $sql->select("SELECT * FROM tb_usuarios WHERE deslogin LIKE :USUARIO ORDER BY deslogin", array(
+            ":USUARIO" => "%".$login."%"
+        ));
+    }
+    
+    //Cadatro um novo usuário
+    public function cadastrar(){
+        $sql = new Sql();
+        
+        $results = $sql->select("CALL sp_usuarios_insert(:LOGIN, :SENHA)", array(
+            ":LOGIN" => $this->getDeslogin(),
+            ":SENHA" => $this->getDessenha()
+        ));
+        
+        if (isset($results[0])){
+            $this->setData($results[0]);
         }
         
-        
+        }
     }
-}
+?>

@@ -11,8 +11,8 @@ echo json_encode($usuarios);*/
 //echo $user;
 
 //Carrega todos os usuarios
-$lista = Usuario::getLista();
-echo json_encode($lista);
+//$lista = Usuario::getLista();
+//echo json_encode($lista);
 
 //Carrega todos os usuários com "pesquisa" no nome
 //$lista = Usuario::search("Gabriel");
@@ -23,5 +23,7 @@ echo json_encode($lista);
 //$usuario->login("Karrant","dklqnkwnjdjn");
 //echo $usuario;
 
-
+$aluno = new Usuario("Usuario","Senha");
+$aluno->Cadastrar();
+echo $aluno;
 ?>
