@@ -29,10 +29,14 @@ echo json_encode($usuarios);*/
 //echo $aluno;
 
 //Update
-$aluno = new Usuario();
-$aluno->loadById(1);
-echo $aluno;
-$aluno->update("Gabriel", "kakaka");
+//$aluno = new Usuario();
+//$aluno->loadById(1);
+//echo $aluno;
+//$aluno->update("Gabriel", "kakaka");
 
+//Deletar
+$usuario = new Usuario();
+$usuario->loadById(3);
+$usuario->delete();
 echo $aluno;
 ?>
