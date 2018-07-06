@@ -20,5 +20,7 @@ Links em ordem das pastas do estudo
 - [Programação Orientada a Objetos](POO)
   - [Autoload](POO/Autoload)
   - [Namespaces](POO/Namespaces)
-- [MySQLi](MySQLi)
-- [PDO](PDO)
+- [Classe MySQLi](MySQLi)
+- [Classe PDO](PDO)
+- [Data Access Objeto - DAO](DAO)
+
