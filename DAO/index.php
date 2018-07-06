@@ -23,7 +23,16 @@ echo json_encode($usuarios);*/
 //$usuario->login("Karrant","dklqnkwnjdjn");
 //echo $usuario;
 
-$aluno = new Usuario("Usuario","Senha");
-$aluno->Cadastrar();
+//Cadastro
+//$aluno = new Usuario("Usuario","Senha");
+//$aluno->Cadastrar();
+//echo $aluno;
+
+//Update
+$aluno = new Usuario();
+$aluno->loadById(1);
+echo $aluno;
+$aluno->update("Gabriel", "kakaka");
+
 echo $aluno;
 ?>
