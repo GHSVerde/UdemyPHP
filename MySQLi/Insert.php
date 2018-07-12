@@ -2,7 +2,7 @@
 //Configuração de Variáveis
 $servidor = "localhost";
 $usuario  = "root";
-$senha    = "KaGa0611";
+$senha    = "";
 $banco    = "dbphp7";
 
 //String de conexão
@@ -19,7 +19,7 @@ $stmt = $con->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES(?, ?)
 
 //Preparando os dados a serem usados nos (?, ?), pois não pode ser passado diretamente na Bind Param
 $userLogin = "user";
-$userSenha = "KaGa0611";
+$userSenha = "";
 
 //Dizendo os tipos
 $stmt->bind_param("ss", $userLogin, $userSenha);

@@ -1,7 +1,7 @@
 <?php
 
 //Reaproveitamento da conexão
-$con = new mysqli("localhost", "root", "KaGa0611", "dbphp7");
+$con = new mysqli("localhost", "root", "", "dbphp7");
 if ($con->connect_error) {echo "Erro:".$con->connect_error;}
 
 //Realização de uma query diretamente e armazenando na variável $result

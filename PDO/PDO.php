@@ -1,5 +1,5 @@
 <?php
-$con = new PDO("mysql:dbname=dbphp7;host=localhost;","root", "KaGa0611");
+$con = new PDO("mysql:dbname=dbphp7;host=localhost;","root", "");
 
 //Preaprando e executando a conexão
 $stmt = $con->prepare("SELECT * FROM tb_usuarios ORDER BY idusuario");

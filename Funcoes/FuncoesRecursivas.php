@@ -17,7 +17,7 @@ $hierarquia = array(
             //Final: Diretor Comercial
             
             //Inicio: Diretor Financeiro
-            array(
+            array(D
                 'nome_cargo' => 'Diretor Financeiro',
                 'subordinados' => array(
                     //Inicio: Gerente de Contas a Pagar
