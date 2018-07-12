@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4dd2a72-c804-4a69-818a-f985581786b0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Upload/rename.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Funcoes/FuncoesRecursivas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Funcoes/FuncoesRecursivas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySQLi/Insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/MySQLi/Insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySQLi/Select.php" beforeDir="false" afterPath="$PROJECT_DIR$/MySQLi/Select.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDO/Delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/PDO/Delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDO/Insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/PDO/Insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDO/PDO.php" beforeDir="false" afterPath="$PROJECT_DIR$/PDO/PDO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDO/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/PDO/Update.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,43 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PDO.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PDO/PDO.php">
+      <file leaf-file-name="rename.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Upload/rename.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transacao.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PDO/Transacao.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PDO/Update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Insert.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MySQLi/Insert.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Select.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MySQLi/Select.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -88,6 +50,7 @@
         <option value="$PROJECT_DIR$/PDO/Update.php" />
         <option value="$PROJECT_DIR$/MySQLi/Select.php" />
         <option value="$PROJECT_DIR$/MySQLi/Insert.php" />
+        <option value="$PROJECT_DIR$/Upload/rename.php" />
       </list>
     </option>
   </component>
@@ -120,7 +83,18 @@
             <path>
               <item name="Aulas PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Aulas PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="MySQLi" type="462c0819:PsiDirectoryNode" />
+              <item name="DIR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aulas PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aulas PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aulas PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aulas PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Upload" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,12 +148,12 @@
       <updated>1531364020828</updated>
       <workItem from="1531364027537" duration="7298000" />
       <workItem from="1531403764416" duration="257000" />
-      <workItem from="1531404477356" duration="834000" />
+      <workItem from="1531404477356" duration="2353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8389000" />
+    <option name="totallyTimeSpent" value="9908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -252,16 +226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIR/Exemplo2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DIR/Exemplo3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DIR/fgets/fgets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -278,13 +242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="41" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Upload/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -336,20 +293,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PDO/PDO.php">
+    <entry file="file://$PROJECT_DIR$/MySQLi/Insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        <state relative-caret-position="486">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDO/Update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PDO/Transacao.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PDO/Update.php">
+    <entry file="file://$PROJECT_DIR$/PDO/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        <state relative-caret-position="18">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -360,10 +324,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MySQLi/Insert.php">
+    <entry file="file://$PROJECT_DIR$/DIR/Exemplo2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Upload/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIR/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIR/Exemplo3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Upload/rename.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
