@@ -23,3 +23,5 @@ Links em ordem das pastas do estudo
 - [Classe MySQLi](MySQLi)
 - [Classe PDO](PDO)
 - [Data Access Objeto - DAO](DAO)
+- [Manipulação de Diretórios e Arquivos](DIR)
+- [Download de Arquivos](Upload)

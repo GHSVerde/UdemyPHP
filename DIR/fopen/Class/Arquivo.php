@@ -32,6 +32,7 @@ class Arquivo {
         
     }
     
+    //Escreve uma mensagem no log
     public static function escreveLog($mensagem) {
         $file = fopen("log.txt", "a+");
         

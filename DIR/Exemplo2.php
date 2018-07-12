@@ -1,4 +1,5 @@
 <?php
+//Retorna um array com todos os nomes dos arquivos nos diretórios
 $images = scandir("images");
 $data = array();
 
