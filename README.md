@@ -25,3 +25,4 @@ Links em ordem das pastas do estudo
 - [Data Access Objeto - DAO](DAO)
 - [Manipulação de Diretórios e Arquivos](DIR)
 - [Download de Arquivos](Upload)
+- [Curl](Curl)
