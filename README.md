@@ -26,3 +26,5 @@ Links em ordem das pastas do estudo
 - [Manipulação de Diretórios e Arquivos](DIR)
 - [Download de Arquivos](Upload)
 - [Curl](Curl)
+- [Cookie](Cookies)
+- [Tratamento de Erros (Try/Catch)](TryCatch)
