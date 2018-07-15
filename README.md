@@ -28,3 +28,5 @@ Links em ordem das pastas do estudo
 - [Curl](Curl)
 - [Cookie](Cookies)
 - [Tratamento de Erros (Try/Catch)](TryCatch)
+- [Manipulação de erros](Erros)
+- [Manipulação de Imagens](GD)
