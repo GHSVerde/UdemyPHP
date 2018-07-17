@@ -1,0 +1,16 @@
+{
+    "name": "gverde/aulaphpudemy",
+    "description": "Aulas de PHP da Udemy",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Verde",
+            "email": "gabrielhsverde@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
