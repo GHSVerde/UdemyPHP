@@ -30,3 +30,4 @@ Links em ordem das pastas do estudo
 - [Tratamento de Erros (Try/Catch)](TryCatch)
 - [Manipulação de erros](Erros)
 - [Manipulação de Imagens](GD)
+- [Boletos](Boleto)
