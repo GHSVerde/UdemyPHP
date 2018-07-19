@@ -31,3 +31,6 @@ Links em ordem das pastas do estudo
 - [Manipulação de erros](Erros)
 - [Manipulação de Imagens](GD)
 - [Boletos](Boleto)
+- [Gerenciamento de Dependências](Composer)
+- [Envio de E-mails com PHPMailer](Email)
+- [Templates com RainTPL](RainTPL)
