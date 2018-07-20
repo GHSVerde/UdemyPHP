@@ -15,11 +15,10 @@ Tpl::configure( $config );
 $tpl = new Tpl;
 
 // Atribui as variáveis
-$tpl->assign( "name", "Gabriel" );
+$tpl->assign("name", "Gabriel" );
 $tpl->assign("version", PHP_VERSION);
 
 //Exibe o Template
 $tpl->draw( "index" );
-
 
 ?>

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4dd2a72-c804-4a69-818a-f985581786b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Email/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Email/contents.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Email/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RainTPL/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RainTPL/email.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RainTPL/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RainTPL/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/rename.php" beforeDir="false" afterPath="$PROJECT_DIR$/Upload/rename.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RainTPL/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/RainTPL/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +20,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RainTPL/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="378">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -131,17 +123,6 @@
               <item name="Aulas PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Aulas PHP" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Aulas PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aulas PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="RainTPL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aulas PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aulas PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="RainTPL" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -208,6 +189,8 @@
       <workItem from="1531792930864" duration="1540000" />
       <workItem from="1531857408464" duration="3187000" />
       <workItem from="1531944434980" duration="5233000" />
+      <workItem from="1532011545530" duration="367000" />
+      <workItem from="1532124875369" duration="81000" />
     </task>
     <task id="LOCAL-00001" summary="Atividades Cookies/TryCatch">
       <created>1531528713644</created>
@@ -220,23 +203,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32140000" />
+    <option name="totallyTimeSpent" value="32588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24609375" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24609375" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973262" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -246,6 +228,7 @@
       <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.328877" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,13 +443,7 @@
     <entry file="file://$PROJECT_DIR$/Composer/composer.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/composer.">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/RainTPL/composer." />
     <entry file="file://$PROJECT_DIR$/Composer/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -547,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RainTPL/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="378">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
