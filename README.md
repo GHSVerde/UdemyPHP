@@ -34,3 +34,4 @@ Links em ordem das pastas do estudo
 - [Gerenciamento de Dependências](Composer)
 - [Envio de E-mails com PHPMailer](Email)
 - [Templates com RainTPL](RainTPL)
+- [Slim Framework - REST APIs](SlimFramework)

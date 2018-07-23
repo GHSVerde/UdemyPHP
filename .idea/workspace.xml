@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4dd2a72-c804-4a69-818a-f985581786b0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RainTPL/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/RainTPL/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="a4dd2a72-c804-4a69-818a-f985581786b0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RainTPL/index.php">
+        <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="288">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -32,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
-        <option value="composer" />
         <option value="HTML File" />
+        <option value="composer" />
       </list>
     </option>
   </component>
@@ -86,11 +83,16 @@
         <option value="$PROJECT_DIR$/Upload/rename.php" />
         <option value="$PROJECT_DIR$/Email/contents.html" />
         <option value="$PROJECT_DIR$/Email/index.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/RainTPL/templates/index.html" />
         <option value="$PROJECT_DIR$/RainTPL/composer.json" />
         <option value="$PROJECT_DIR$/RainTPL/email.php" />
         <option value="$PROJECT_DIR$/RainTPL/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/SlimFramework/composer.json" />
+        <option value="$PROJECT_DIR$/SlimFramework/index.php" />
+        <option value="$PROJECT_DIR$/SlimFramework/.htaccess" />
+        <option value="$PROJECT_DIR$/../AulasPHP/SlimFramework/.htaccess" />
+        <option value="$PROJECT_DIR$/../AulasPHP/SlimFramework/index.php" />
       </list>
     </option>
   </component>
@@ -121,7 +123,12 @@
           <expand>
             <path>
               <item name="Aulas PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aulas PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="AulasPHP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aulas PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AulasPHP" type="462c0819:PsiDirectoryNode" />
+              <item name="SlimFramework" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,6 +143,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SlimFramework" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GD" />
     </key>
@@ -154,7 +165,7 @@
   </component>
   <component name="RunManager" selected="PHP Script.fgets.php">
     <configuration name="Default" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229" isV8Legacy="true" />
-    <configuration name="fgets.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/DIR/fgets/fgets.php">
+    <configuration name="fgets.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/../AulasPHP/DIR/fgets/fgets.php">
       <method>
         <option name="LaunchBrowser.Before.Run" url="http://localhost/Aulas PHP/" />
       </method>
@@ -190,7 +201,7 @@
       <workItem from="1531857408464" duration="3187000" />
       <workItem from="1531944434980" duration="5233000" />
       <workItem from="1532011545530" duration="367000" />
-      <workItem from="1532124875369" duration="81000" />
+      <workItem from="1532124875369" duration="2980000" />
     </task>
     <task id="LOCAL-00001" summary="Atividades Cookies/TryCatch">
       <created>1531528713644</created>
@@ -203,7 +214,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32588000" />
+    <option name="totallyTimeSpent" value="35487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -218,7 +229,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328877" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973262" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -249,49 +260,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TryCatch/tratamento.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Erros/error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Erros/warning.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/gd/gd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24105">
-          <caret line="1490" column="9" selection-start-line="1490" selection-start-column="9" selection-end-line="1490" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GD/fontesNaImagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GD/stringNaImagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GD/GD.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/GD/GD.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
@@ -305,24 +274,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GD/wallpaper.jpg">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/GD/wallpaper.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boleto/boletophp/boleto_itau.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Boleto/boletophp/boleto_itau.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boleto/boletophp/include/layout_itau.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Boleto/boletophp/include/layout_itau.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3622">
           <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GD/thumbnail.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/GD/thumbnail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
@@ -335,7 +304,7 @@
     <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/src/Composer/Autoload/AutoloadGenerator.php" />
     <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/src/Composer/Json/JsonFile.php" />
     <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/src/Composer/Autoload/ClassLoader.php" />
-    <entry file="file://$PROJECT_DIR$/Boleto/boletophp/boleto_besc.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Boleto/boletophp/boleto_besc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
@@ -345,187 +314,226 @@
     <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/bin/composer" />
     <entry file="file://$PROJECT_DIR$/Composer/vendor/monolog/monolog/composer.json" />
     <entry file="file://$PROJECT_DIR$/Composer/vendor/autoload.php" />
-    <entry file="file://$PROJECT_DIR$/Composer/index.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Composer/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MySQLi/Insert.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/MySQLi/Insert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Email/composer.lock">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-936" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Email/composer.json">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Email/vendor/composer/autoload_real.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/vendor/composer/autoload_real.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="33" column="48" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="33" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Email/vendor/autoload.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIR/Exemplo2.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/DIR/Exemplo2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIR/Exemplo3.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/DIR/Exemplo3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIR/index.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/DIR/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Upload/rename.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Upload/rename.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Email/vendor/phpmailer/phpmailer/src/OAuth.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/vendor/phpmailer/phpmailer/src/OAuth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Email/vendor/phpmailer/phpmailer/src/PHPMailer.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/vendor/phpmailer/phpmailer/src/PHPMailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36012">
           <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Email/contents.html">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/contents.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="44" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="630">
-            <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Composer/composer.lock">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Composer/composer.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/RainTPL/composer." />
-    <entry file="file://$PROJECT_DIR$/Composer/composer.json">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Composer/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="5" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Composer/bin/composer">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Composer/bin/composer">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/vendor/rain/raintpl/templates/bootstrap/hero.html">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/vendor/rain/raintpl/templates/bootstrap/hero.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-774">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/composer.lock">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1873" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Email/index.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/vendor/autoload.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/vendor/phpmailer/phpmailer/class.phpmailer.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/vendor/phpmailer/phpmailer/class.phpmailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/vendor/composer/autoload_static.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/vendor/composer/autoload_static.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="26" column="72" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/cache/index.ddb65575e5a356704c895bcb9546c05d.rtpl.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/cache/index.ddb65575e5a356704c895bcb9546c05d.rtpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/email.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="69" column="75" lean-forward="true" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RainTPL/index.php">
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="22" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="644">
+            <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/vendor/slim/slim/README.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlimFramework/index.pjp.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/vendor/slim/slim/Slim/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="346" column="45" selection-start-line="346" selection-start-column="45" selection-end-line="346" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
