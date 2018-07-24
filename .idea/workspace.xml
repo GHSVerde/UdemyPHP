@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4dd2a72-c804-4a69-818a-f985581786b0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Seguranca/cadastrar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seguranca/permissaoPasta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seguranca/reCAPTCHA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seguranca/xss/crossSiteScripting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Aulas PHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AulasPHP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seguranca/SQLInjection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seguranca/SQLInjection.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SQLInjection.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Seguranca/SQLInjection.php">
+      <file leaf-file-name="crossSiteScripting.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Seguranca/xss/crossSiteScripting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="216">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -43,6 +50,7 @@
       <find>c�digo</find>
       <find>econ�mico</find>
       <find>formul�rio</find>
+      <find>todo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,17 +99,27 @@
         <option value="$PROJECT_DIR$/SlimFramework/composer.json" />
         <option value="$PROJECT_DIR$/SlimFramework/index.php" />
         <option value="$PROJECT_DIR$/SlimFramework/.htaccess" />
-        <option value="$PROJECT_DIR$/../AulasPHP/SlimFramework/.htaccess" />
-        <option value="$PROJECT_DIR$/../AulasPHP/SlimFramework/index.php" />
+        <option value="$PROJECT_DIR$/SlimFramework/.htaccess" />
+        <option value="$PROJECT_DIR$/SlimFramework/index.php" />
         <option value="$PROJECT_DIR$/Upload/rename.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Seguranca/commandInjection.php" />
         <option value="$PROJECT_DIR$/Seguranca/SQLInjection.php" />
+        <option value="$PROJECT_DIR$/Seguranca/permissaoPasta.php" />
+        <option value="$PROJECT_DIR$/Seguranca/reCAPTCHA.php" />
+        <option value="$PROJECT_DIR$/Seguranca/cadastrar.php" />
+        <option value="$PROJECT_DIR$/Seguranca/xss/crossSiteScripting.php" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -126,13 +144,23 @@
         <subPane>
           <expand>
             <path>
-              <item name="UdemyPHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyPHP" type="462c0819:PsiDirectoryNode" />
+              <item name="AulasPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AulasPHP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="UdemyPHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyPHP" type="462c0819:PsiDirectoryNode" />
+              <item name="AulasPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AulasPHP" type="462c0819:PsiDirectoryNode" />
               <item name="Seguranca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AulasPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AulasPHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Seguranca" type="462c0819:PsiDirectoryNode" />
+              <item name="xss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AulasPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -145,8 +173,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Applications/XAMPP/htdocs/Aulas PHP/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,7 +199,7 @@
   </component>
   <component name="RunManager" selected="PHP Script.fgets.php">
     <configuration name="Default" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229" isV8Legacy="true" />
-    <configuration name="fgets.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/../AulasPHP/DIR/fgets/fgets.php">
+    <configuration name="fgets.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/DIR/fgets/fgets.php">
       <method>
         <option name="LaunchBrowser.Before.Run" url="http://localhost/Aulas PHP/" />
       </method>
@@ -208,6 +236,7 @@
       <workItem from="1531944434980" duration="5233000" />
       <workItem from="1532011545530" duration="367000" />
       <workItem from="1532124875369" duration="2980000" />
+      <workItem from="1532446625222" duration="3267000" />
     </task>
     <task id="LOCAL-00001" summary="Atividades Cookies/TryCatch">
       <created>1531528713644</created>
@@ -220,44 +249,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39005000" />
+    <option name="totallyTimeSpent" value="42272000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="PHP-CGI Server" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328877" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597365" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973262" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328877" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24609375" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.328877" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328877" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973262" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,55 +301,50 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Composer/composer-setup.php" />
-    <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/src/bootstrap.php" />
-    <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/res/composer-schema.json" />
-    <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/src/Composer/Autoload/AutoloadGenerator.php" />
     <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/src/Composer/Json/JsonFile.php" />
     <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/src/Composer/Autoload/ClassLoader.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Boleto/boletophp/boleto_besc.php" />
+    <entry file="file://$PROJECT_DIR$/Boleto/boletophp/boleto_besc.php" />
     <entry file="phar://$PROJECT_DIR$/Composer/composer.phar/bin/composer" />
     <entry file="file://$PROJECT_DIR$/Composer/vendor/monolog/monolog/composer.json" />
     <entry file="file://$PROJECT_DIR$/Composer/vendor/autoload.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Composer/index.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/MySQLi/Insert.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/composer.lock" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/composer.json" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/vendor/composer/autoload_real.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/vendor/autoload.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/DIR/Exemplo2.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/DIR/Exemplo3.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/DIR/index.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Upload/rename.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/vendor/phpmailer/phpmailer/src/OAuth.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/vendor/phpmailer/phpmailer/src/PHPMailer.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/contents.html" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Composer/composer.lock" />
+    <entry file="file://$PROJECT_DIR$/Composer/index.php" />
+    <entry file="file://$PROJECT_DIR$/MySQLi/Insert.php" />
+    <entry file="file://$PROJECT_DIR$/Email/composer.lock" />
+    <entry file="file://$PROJECT_DIR$/Email/composer.json" />
+    <entry file="file://$PROJECT_DIR$/Email/vendor/composer/autoload_real.php" />
+    <entry file="file://$PROJECT_DIR$/Email/vendor/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/DIR/Exemplo2.php" />
+    <entry file="file://$PROJECT_DIR$/DIR/Exemplo3.php" />
+    <entry file="file://$PROJECT_DIR$/DIR/index.php" />
+    <entry file="file://$PROJECT_DIR$/Upload/rename.php" />
+    <entry file="file://$PROJECT_DIR$/Email/vendor/phpmailer/phpmailer/src/OAuth.php" />
+    <entry file="file://$PROJECT_DIR$/Email/contents.html" />
+    <entry file="file://$PROJECT_DIR$/Composer/composer.lock" />
     <entry file="file://$PROJECT_DIR$/RainTPL/composer." />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Composer/composer.json" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Composer/bin/composer" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/vendor/rain/raintpl/templates/bootstrap/hero.html" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/composer.lock" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/Email/index.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/vendor/autoload.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/vendor/phpmailer/phpmailer/class.phpmailer.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/vendor/composer/autoload_static.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/templates/index.html" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/cache/index.ddb65575e5a356704c895bcb9546c05d.rtpl.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/email.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/composer.json" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/RainTPL/index.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/README.md" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/vendor/slim/slim/README.markdown" />
+    <entry file="file://$PROJECT_DIR$/Composer/composer.json" />
+    <entry file="file://$PROJECT_DIR$/Composer/bin/composer" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/vendor/rain/raintpl/templates/bootstrap/hero.html" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/composer.lock" />
+    <entry file="file://$PROJECT_DIR$/Email/index.php" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/vendor/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/vendor/phpmailer/phpmailer/class.phpmailer.php" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/vendor/composer/autoload_static.php" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/cache/index.ddb65575e5a356704c895bcb9546c05d.rtpl.php" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/email.php" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/composer.json" />
+    <entry file="file://$PROJECT_DIR$/RainTPL/index.php" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/SlimFramework/vendor/slim/slim/README.markdown" />
     <entry file="file://$PROJECT_DIR$/SlimFramework/index.pjp.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/vendor/slim/slim/Slim/Route.php" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/.htaccess" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/composer.json" />
-    <entry file="file://$PROJECT_DIR$/../AulasPHP/SlimFramework/index.php" />
+    <entry file="file://$PROJECT_DIR$/SlimFramework/vendor/slim/slim/Slim/Route.php" />
+    <entry file="file://$PROJECT_DIR$/SlimFramework/.htaccess" />
+    <entry file="file://$PROJECT_DIR$/SlimFramework/composer.json" />
+    <entry file="file://$PROJECT_DIR$/SlimFramework/index.php" />
     <entry file="file://$PROJECT_DIR$/Variáveis/VariaveisGeral.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -354,17 +376,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Seguranca/commandInjection.php">
+    <entry file="file://$PROJECT_DIR$/Seguranca/SQLInjection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="252">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Seguranca/SQLInjection.php">
+    <entry file="file://$PROJECT_DIR$/Seguranca/permissaoPasta.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="180">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Email/vendor/phpmailer/phpmailer/src/PHPMailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="2606" column="42" selection-start-line="2606" selection-start-column="42" selection-end-line="2606" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seguranca/commandInjection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seguranca/reCAPTCHA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seguranca/cadastrar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seguranca/xss/crossSiteScripting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
